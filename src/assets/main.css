@@ -1,0 +1,29 @@
+@import './base.css';
+.max-width {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.padding-web{
+  padding: 1em;
+  margin-top: 3em;
+}
+.separacion {
+  padding: 2em 0;
+}
+.texto-colgante {
+  background: var(--gris);
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  
+  font-weight: inherit;
+}
+.background{
+  background-image: url("/img/fondo_puerta.webp");
+  background-size: cover;
+  min-height: 100vh;
+}
