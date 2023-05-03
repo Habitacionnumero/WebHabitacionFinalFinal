@@ -70,8 +70,8 @@ export default {
     }
 }
 .year_position_1{
-    margin-right: 45px;
-    width: 105px;
+    margin-right: 70px;
+    width: 76px;
     height: 20px;
     //background-color: blue;
 }

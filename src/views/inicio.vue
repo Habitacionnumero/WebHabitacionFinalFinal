@@ -58,6 +58,9 @@
 
 <style lang="scss" scoped>
 
+.fly {
+  width: 100%;
+}
 .main_top {
   min-height: 85vh;
   background: url("/img/fondo_junto_noche3.png");
