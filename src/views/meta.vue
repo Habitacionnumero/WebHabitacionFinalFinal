@@ -34,7 +34,7 @@ export default {
         playsinline
         muted
         preload
-        src="/img/door_animation.mp4"
+        src="/img/doorAnimation.mp4"
       ></video>
     </div>
   </div>

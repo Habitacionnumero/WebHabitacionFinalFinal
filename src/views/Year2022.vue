@@ -2,7 +2,7 @@
 import MenuNavegacion from '../components/MenuNavegacion.vue';
 </script>
 <script>
-export default{
+export default {
     data(){
         return{
             show: false,
@@ -44,7 +44,7 @@ export default{
 <style lang="scss" scoped>
 .year_img{
     width: 100%;
-    height: 100vh;
+    height: 81vh;
     display: flex;
     flex-direction: column;
     //justify-content: center;
@@ -155,4 +155,97 @@ export default{
 p{
     width: 50%;
 }
+@media screen and (max-width: 800px){
+
+.year_position_1{
+    margin-top: -9px;
+    margin-right: 57px;
+    width: 60px;
+    height: 20px;
+    //background-color: blue;
+}
+.year_position_2{
+    margin-top: -8px;
+    margin-right: 15px;
+    width: 110px;
+    height: 20px;
+    //background-color: blue;
+}
+.year_position_3{
+    margin-top: -6px;
+    margin-right: -25px;
+    width: 160px;
+    height: 20px;
+    //background-color: blue;
+}
+.year_position_4{
+    margin-top: -4px;
+    margin-right: 7px;
+    width: 110px;
+    height: 20px;
+    //background-color: blue;
+}
+.year_position_5{
+    margin-top: -7px;
+    margin-right: 7px;
+    width: 95px;
+    height: 20px;
+    //background-color: blue;
+}
+.year_position_6{
+    margin-top: -3px;
+    margin-right: -5px;
+    width: 105px;
+    height: 20px;
+    //background-color: blue;
+}
+.year_position_7{
+    margin-top: -8px;
+    margin-right: -3px;
+    width: 110px;
+    height: 20px;
+    //background-color: blue;
+}
+.year_position_8{
+    margin-top: -5px;
+    margin-right: 2px;
+    width: 100px;
+    height: 20px;
+    //background-color: blue;
+}
+.year_position_9{
+    margin-top: -9px;
+    margin-right: 15px;
+    width: 90px;
+    height: 20px;
+    //background-color: blue;
+}
+.year_position_10{
+    margin-top: -9px;
+    margin-right: -25px;
+    width: 120px;
+    height: 20px;
+    //background-color: blue;
+}
+.year_position_11{
+    margin-top: -5px;
+    margin-right: -10px;
+    width: 107px;
+    height: 20px;
+    //background-color: blue;
+}
+.year_position_12{
+    margin-top: -1px;
+    margin-right: -7px;
+    width: 110px;
+    height: 20px;
+    //background-color: blue;
+}
+
+
+}
+
+
+
+
 </style>
