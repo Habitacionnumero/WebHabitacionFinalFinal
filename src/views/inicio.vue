@@ -40,11 +40,11 @@
       <div class="main_bottom">
         <router-link :to="{ name: 'about' }"
           ><div class="tarjeta">
-            <img src="/img/tarjeta_aplica.webp" alt="" class="aplica" /></div
+            <img src="/img/tarjeta_aplica.png" alt="" class="aplica" /></div
         ></router-link>
         <router-link :to="{ name: 'contacto' }"
           ><div class="tarjeta">
-            <img src="/img/tarjeta_contacto.webp" alt="" class="contacto" /></div
+            <img src="/img/tarjeta_contacto.png" alt="" class="contacto" /></div
         ></router-link>
 
         <router-link :to="{ name: 'prensa' }"
@@ -103,7 +103,7 @@
   padding-left: 40px;
 }
 .main_bottom_content {
-  background: url("/img/suelo.webp");
+  background: url("/img/suelo.png");
   background-size: cover;
   display: flex;
   justify-content: center;

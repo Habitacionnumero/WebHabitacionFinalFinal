@@ -23,7 +23,7 @@
   font-weight: inherit;
 }
 .background{
-  background-image: url("/img/fondo_puerta.webp");
+  background-image: url("/img/fondo_puerta.png");
   background-size: cover;
   min-height: 100vh;
 }
