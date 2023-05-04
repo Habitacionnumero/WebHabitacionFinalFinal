@@ -225,4 +225,7 @@ export default {
   position: absolute;
   top: 0;
 }
+.background{
+  background-image: src("fondo_puerta.webp")
+}
 </style>

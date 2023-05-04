@@ -3,7 +3,7 @@
     <div class="main_top">
       <div class="main_top_title">
         <router-link :to="{ name: 'home' }"
-          ><img src="/img/titulo2.png" alt=""
+          ><img src="/img/titulo3.png" alt=""
         /></router-link>
       </div>
       <marquee class="fly">
@@ -132,7 +132,40 @@
   display: none;
 }
 
-@media screen  and (max-width: 800px) {
+@media screen  and (max-width: 1500px) and (min-width: 800px) {
+
+.main_top_title{
+  margin-top: 30px;
+  width: 45%;
+
+
+
+}
+.avion_img{
+  width: 450px;
+  margin-top: 0px;
+}
+
+.main_top_doors {
+  margin-top: 70px;
+  margin-left: 280px;
+
+
+
+}
+
+
+
+.meta_door, .install_door, .rgb_door{
+//padding: 10px;
+width: 200px;
+margin-top: -10px;
+
+}
+
+}
+
+@media screen  and (max-width: 844px) {
   .main_top_title{
     margin-top: 30px;
   }
